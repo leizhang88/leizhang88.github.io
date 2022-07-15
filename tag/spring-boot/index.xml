@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spring Boot | Lei Zhang</title>
-    <link>https://leizhang88.github.io/tag/spring-boot/</link>
-      <atom:link href="https://leizhang88.github.io/tag/spring-boot/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/spring-boot/</link>
+      <atom:link href="/tag/spring-boot/index.xml" rel="self" type="application/rss+xml" />
     <description>Spring Boot</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://leizhang88.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>/media/icon_hu91faf9d433278f56c501eb4f25a33ee6_6728_512x512_fill_lanczos_center_3.png</url>
       <title>Spring Boot</title>
-      <link>https://leizhang88.github.io/tag/spring-boot/</link>
+      <link>/tag/spring-boot/</link>
     </image>
     
     <item>
       <title>E-store website</title>
-      <link>https://leizhang88.github.io/project/e-shop-app/</link>
-      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://leizhang88.github.io/project/e-shop-app/</guid>
-      <description>&lt;p&gt;An e-store application built with Spring Boot framework, using MyBatis to access MySQL database via SQL.&lt;/p&gt;
+      <link>/project/e-store-spring-boot/</link>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/project/e-store-spring-boot/</guid>
+      <description>&lt;p&gt;A full-stack web application built on Java Spring Boot with MyBatis and MySQL database.&lt;/p&gt;
 &lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;User register/login&lt;/li&gt;
@@ -27,6 +27,14 @@
 &lt;li&gt;Session-based cart management&lt;/li&gt;
 &lt;li&gt;Order management&lt;/li&gt;
 &lt;li&gt;Checkout&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;technologies&#34;&gt;Technologies&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring Boot&lt;/li&gt;
+&lt;li&gt;MyBatis&lt;/li&gt;
+&lt;li&gt;MySQL&lt;/li&gt;
+&lt;li&gt;Maven&lt;/li&gt;
+&lt;li&gt;JQuery&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
