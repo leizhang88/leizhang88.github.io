@@ -5,7 +5,7 @@
     <link>/tag/java/</link>
       <atom:link href="/tag/java/index.xml" rel="self" type="application/rss+xml" />
     <description>Java</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 08 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hu91faf9d433278f56c501eb4f25a33ee6_6728_512x512_fill_lanczos_center_3.png</url>
       <title>Java</title>
@@ -13,28 +13,246 @@
     </image>
     
     <item>
-      <title>E-store website</title>
+      <title>Online Learning Management System</title>
+      <link>/project/wbdv-sp21-react-java/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>/project/wbdv-sp21-react-java/</guid>
+      <description>&lt;p&gt;A full-stack Online Learning Management application where the front end implemented by &lt;code&gt;React&lt;/code&gt; communicates with a local &lt;code&gt;MySQL&lt;/code&gt; database through the &lt;code&gt;Java&lt;/code&gt; middle tier.&lt;/p&gt;
+&lt;h3 id=&#34;functions&#34;&gt;Functions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The client built by &lt;code&gt;React&lt;/code&gt; allows users to toggle with course components and to implement CRUD operations by sending RESTful requests to a remote server using &lt;code&gt;Redux&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;The local server hosting a &lt;code&gt;MySQL&lt;/code&gt; database is built specifically to store data of widgets, the smallest unit of component created by users&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;Java&lt;/code&gt; middle tier handles the tractions between the client and the local database&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bootstrap Styled&lt;/li&gt;
+&lt;li&gt;React Single Page Application&lt;/li&gt;
+&lt;li&gt;RESTful Web Services by Redux and Java Spring Boot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Course table
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;course table&#34; srcset=&#34;
+               /media/wbdv-course-table_hu5fdc5136795eff9546b21567b04de9e6_772779_7461d6fb3503eef827dac327336bf5d6.webp 400w,
+               /media/wbdv-course-table_hu5fdc5136795eff9546b21567b04de9e6_772779_1fc9f6d4e1a177ab8f666184394d715e.webp 760w,
+               /media/wbdv-course-table_hu5fdc5136795eff9546b21567b04de9e6_772779_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/wbdv-course-table_hu5fdc5136795eff9546b21567b04de9e6_772779_7461d6fb3503eef827dac327336bf5d6.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;215&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;Course component toggling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;toggling&#34; srcset=&#34;
+               /media/wbdv-module-list_hu492d7cd4a151769ad1473390b5185141_978676_aca7ea25f767cd5a1ea502b5b5bc5416.webp 400w,
+               /media/wbdv-module-list_hu492d7cd4a151769ad1473390b5185141_978676_7b0e15f5b0998db912d892316b7be05f.webp 760w,
+               /media/wbdv-module-list_hu492d7cd4a151769ad1473390b5185141_978676_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/wbdv-module-list_hu492d7cd4a151769ad1473390b5185141_978676_aca7ea25f767cd5a1ea502b5b5bc5416.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;246&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>E-store Website</title>
       <link>/project/e-store-spring-boot/</link>
       <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
       <guid>/project/e-store-spring-boot/</guid>
-      <description>&lt;p&gt;A full-stack web application built on Java Spring Boot with MyBatis and MySQL database.&lt;/p&gt;
+      <description>&lt;p&gt;A full-stack web application built with Java Spring Boot and MySQL database accessed via MyBatis.&lt;/p&gt;
 &lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;User register/login&lt;/li&gt;
-&lt;li&gt;User profile editing&lt;/li&gt;
-&lt;li&gt;Address management&lt;/li&gt;
-&lt;li&gt;Product display&lt;/li&gt;
-&lt;li&gt;Session-based cart management&lt;/li&gt;
-&lt;li&gt;Order management&lt;/li&gt;
-&lt;li&gt;Checkout&lt;/li&gt;
+&lt;li&gt;User register/login and profile editing&lt;/li&gt;
+&lt;li&gt;User address management&lt;/li&gt;
+&lt;li&gt;Session-based cart management and order generation&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;technologies&#34;&gt;Technologies&lt;/h3&gt;
+&lt;h3 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Spring Boot&lt;/li&gt;
-&lt;li&gt;MyBatis&lt;/li&gt;
-&lt;li&gt;MySQL&lt;/li&gt;
-&lt;li&gt;Maven&lt;/li&gt;
-&lt;li&gt;JQuery&lt;/li&gt;
+&lt;li&gt;User login
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;login&#34; srcset=&#34;
+               /media/estore-login_huab2082eda746b3abd43578b9958178f8_1265269_2970e9cea552ddc99628b048d4fed1a5.webp 400w,
+               /media/estore-login_huab2082eda746b3abd43578b9958178f8_1265269_e8bbdae834da0b0d217404af0f0a7d8e.webp 760w,
+               /media/estore-login_huab2082eda746b3abd43578b9958178f8_1265269_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/estore-login_huab2082eda746b3abd43578b9958178f8_1265269_2970e9cea552ddc99628b048d4fed1a5.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;491&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;User profile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;login&#34; srcset=&#34;
+               /media/estore-profile_huab2082eda746b3abd43578b9958178f8_1857627_36be6610809d8cc3e961064f667e2acd.webp 400w,
+               /media/estore-profile_huab2082eda746b3abd43578b9958178f8_1857627_93ac55a8b14fb9a45f57b8e3a99ea532.webp 760w,
+               /media/estore-profile_huab2082eda746b3abd43578b9958178f8_1857627_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/estore-profile_huab2082eda746b3abd43578b9958178f8_1857627_36be6610809d8cc3e961064f667e2acd.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;491&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;User address management
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;login&#34; srcset=&#34;
+               /media/estore-address_huab2082eda746b3abd43578b9958178f8_2094557_c2a961727a8e372137bd57c49b6ee507.webp 400w,
+               /media/estore-address_huab2082eda746b3abd43578b9958178f8_2094557_185f67710f082f66dbf4e2c8239beb18.webp 760w,
+               /media/estore-address_huab2082eda746b3abd43578b9958178f8_2094557_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/estore-address_huab2082eda746b3abd43578b9958178f8_2094557_c2a961727a8e372137bd57c49b6ee507.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;491&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;Shopping cart
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;login&#34; srcset=&#34;
+               /media/estore-shopping-cart_huab2082eda746b3abd43578b9958178f8_800510_39f8b1aaf5a2d27fe8b03f2f66127ef8.webp 400w,
+               /media/estore-shopping-cart_huab2082eda746b3abd43578b9958178f8_800510_bd2b7e0196b93b2e23c3593f7e2761fa.webp 760w,
+               /media/estore-shopping-cart_huab2082eda746b3abd43578b9958178f8_800510_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/estore-shopping-cart_huab2082eda746b3abd43578b9958178f8_800510_39f8b1aaf5a2d27fe8b03f2f66127ef8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;491&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;Order generation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;login&#34; srcset=&#34;
+               /media/estore-order_huab2082eda746b3abd43578b9958178f8_1861526_f045f650e12348c06743f8759d670184.webp 400w,
+               /media/estore-order_huab2082eda746b3abd43578b9958178f8_1861526_6d024358c349acd25c68f5eb7020ffbc.webp 760w,
+               /media/estore-order_huab2082eda746b3abd43578b9958178f8_1861526_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/estore-order_huab2082eda746b3abd43578b9958178f8_1861526_f045f650e12348c06743f8759d670184.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;491&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
