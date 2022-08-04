@@ -5,12 +5,151 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Lei Zhang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 08 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hu91faf9d433278f56c501eb4f25a33ee6_6728_512x512_fill_lanczos_center_3.png</url>
       <title>Lei Zhang</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>YelpCamp for Camping Site Sharing</title>
+      <link>/project/yelpcamp/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>/project/yelpcamp/</guid>
+      <description>&lt;p&gt;A full-stack web application for sharing camping site, powered by &lt;code&gt;Node.js&lt;/code&gt;, specifically &lt;code&gt;express&lt;/code&gt; for the server side.&lt;/p&gt;
+&lt;p&gt;Visit &lt;a href=&#34;https://yelpcamp-su22-nodejs-express.herokuapp.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Styled with &lt;code&gt;Bootstrap&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;RESTful conventions&lt;/li&gt;
+&lt;li&gt;MongoDB connection by &lt;code&gt;mongoose&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Schema validation by &lt;code&gt;joi&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Authentication and authorization based on data relationship&lt;/li&gt;
+&lt;li&gt;Session and cookie enabled by &lt;code&gt;express-session&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Map API by &lt;code&gt;mapbox&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Deployed on &lt;code&gt;Heroku&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;User register
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;register&#34; srcset=&#34;
+               /media/yelpcamp-register_huab2082eda746b3abd43578b9958178f8_909625_f65f37251062bace6a27ccbb1eaaa471.webp 400w,
+               /media/yelpcamp-register_huab2082eda746b3abd43578b9958178f8_909625_edc58d027c01ec735026924fb8c79a11.webp 760w,
+               /media/yelpcamp-register_huab2082eda746b3abd43578b9958178f8_909625_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/yelpcamp-register_huab2082eda746b3abd43578b9958178f8_909625_f65f37251062bace6a27ccbb1eaaa471.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;491&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;Map display
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;map-display&#34; srcset=&#34;
+               /media/yelpcamp-map-display_huab2082eda746b3abd43578b9958178f8_2128302_598d61af3f4d1b0e81d60f54b61e4ffe.webp 400w,
+               /media/yelpcamp-map-display_huab2082eda746b3abd43578b9958178f8_2128302_af4f84216d5d6d1b3e8a3fc1d2eff5b4.webp 760w,
+               /media/yelpcamp-map-display_huab2082eda746b3abd43578b9958178f8_2128302_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/yelpcamp-map-display_huab2082eda746b3abd43578b9958178f8_2128302_598d61af3f4d1b0e81d60f54b61e4ffe.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;491&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;Authorization based on data ownership
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;owner&#34; srcset=&#34;
+               /media/yelpcamp-owner_huab2082eda746b3abd43578b9958178f8_750477_3a1dc7e021293ea88e6b1c95796e53b9.webp 400w,
+               /media/yelpcamp-owner_huab2082eda746b3abd43578b9958178f8_750477_85269a3896e2f8cc597e106519923737.webp 760w,
+               /media/yelpcamp-owner_huab2082eda746b3abd43578b9958178f8_750477_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/yelpcamp-owner_huab2082eda746b3abd43578b9958178f8_750477_3a1dc7e021293ea88e6b1c95796e53b9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;491&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;visitor&#34; srcset=&#34;
+               /media/yelpcamp-visitor_huab2082eda746b3abd43578b9958178f8_692930_b8773e7970fe621f74c5b53d014b8334.webp 400w,
+               /media/yelpcamp-visitor_huab2082eda746b3abd43578b9958178f8_692930_64227e8a81b43d340a542fd9080b074c.webp 760w,
+               /media/yelpcamp-visitor_huab2082eda746b3abd43578b9958178f8_692930_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/yelpcamp-visitor_huab2082eda746b3abd43578b9958178f8_692930_b8773e7970fe621f74c5b53d014b8334.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;491&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Online Learning Management System</title>
